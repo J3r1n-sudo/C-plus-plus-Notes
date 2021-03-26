@@ -1,4 +1,4 @@
-Book to be refered : C++ Programming Language 4th edition
+Book used for reference : C++ Programming Language 4th edition
 
 1}Program Structure
   the c++ program structure consists of two major parts **Preprocessor Directives** & **Main Fucntion**
@@ -27,7 +27,9 @@ You can declare the library by using either " " or < >
 The brackets ( <> ) say “Look for this file in the directory where all the standard libraries are stored”. C++ also allows us to specify the library name using double quotes.
 The double quotes (" ") say “look in the current directory, if the file is not there, then look in the directory where the standard libraries are stored”.
 
-****** How to use commnents*******
+std::cout --> (Standard) it is used to take that particular command from the library (iostream) in this case ...  cout --> prints 
+
+**How to use commnents**
 
 Comments helps in explaining the piece of code you have wrote and also helps other viewers and collaborators to work on it for the same....
 in C++ comments are given as /* comment */
@@ -35,3 +37,23 @@ in C++ comments are given as /* comment */
 Comments can be added in two ways:
 - As a comment block
 - As a single line
+
+Comment block can be added as---
+/* Hi This is Jerin
+*** currently learning C++
+*/
+
+Single line comment can be given as ---
+//Single line Quoting
+
+**Style Guide**
+As with all programming languages, there are many different ways to style the code we write. For this course, we are not using a standard style. We are trying to remain consistent throughout the course, while making the codes as readable as possible.
+
+There are a number of style guides available, the best one is the one used by the people who are paying you.
+
+A straightforward style guide is:
+               [Modern C++ Coding Guidelines](https://github.com/Microsoft/AirSim/blob/master/docs/coding_guidelines.md)
+
+For a more detailed guideline:
+               [Google C++ Style Guideline](https://google.github.io/styleguide/cppguide.html)
+      
