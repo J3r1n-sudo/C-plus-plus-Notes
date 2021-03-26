@@ -58,7 +58,7 @@ A straightforward style guide is:
 For a more detailed guideline:
                [Google C++ Style Guideline](https://google.github.io/styleguide/cppguide.html)
                
-######Compiling C++
+###### Compiling C++
              
 Now the question you are asking is … what does it mean to get it right? What did I get right?
 
