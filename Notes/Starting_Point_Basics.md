@@ -109,3 +109,5 @@ Also, note that cout does not automatically add newlines. You must add them usin
 
 **(8) printing variable size**
 As with other programming languages, the size a variable is allocated in memory is dependent upon its type. To determine how many bytes each variable type uses, C++ provides the function sizeof(variableType)
+
+"\n" and "endl" works the same but has a distinct feature of using .flush() function.
