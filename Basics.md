@@ -30,4 +30,8 @@ The double quotes (" ") say “look in the current directory, if the file is not
 ****** How to use commnents*******
 
 Comments helps in explaining the piece of code you have wrote and also helps other viewers and collaborators to work on it for the same....
-in C++ comments are given as /*comment*/
+in C++ comments are given as /* comment */
+
+Comments can be added in two ways:
+- As a comment block
+- As a single line
