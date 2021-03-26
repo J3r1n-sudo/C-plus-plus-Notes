@@ -1,2 +1,2 @@
 # C-plus-plus-Notes
-C++ Practice Programs from Udacity Courses
+C++ Practice Programs from Udacity Course
