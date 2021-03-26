@@ -4,14 +4,15 @@ Book to be refered : C++ Programming Language 4th edition
   the c++ program structure consists of two major parts **Preprocessor Directives** & **Main Fucntion**
   
   Lets take an example of a program...
-  
-  #include <iostream>
-
-  int main() 
-    {
+ 
+ ```
+ #include <iostream>
+ int main() 
+   {
       std::cout << "Hello world, I am ready for C++";
       return 0;
-    }
+   }
+ ```
     
   Any word which starts with a hash sign is called the pre processor directive
   
