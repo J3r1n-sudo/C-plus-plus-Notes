@@ -1,6 +1,6 @@
 Book used for reference : C++ Programming Language 4th edition
 
-**Program Structure**
+**(1) Program Structure**
   
 The c++ program structure consists of two major parts **Preprocessor Directives** & **Main Fucntion**
   
@@ -30,7 +30,7 @@ The double quotes (" ") say “look in the current directory, if the file is not
 
 std::cout --> (Standard) it is used to take that particular command from the library (iostream) in this case ...  cout --> prints 
 
-**How to use commnents**
+**(2) How to use commnents**
 
 Comments helps in explaining the piece of code you have wrote and also helps other viewers and collaborators to work on it for the same....
 in C++ comments are given as /* comment */
@@ -47,7 +47,7 @@ Comment block can be added as---
 Single line comment can be given as ---
 //Single line Quoting
 
-**Style Guide**
+**(3)Style Guide**
 
 As with all programming languages, there are many different ways to style the code we write. For this course, we are not using a standard style. We are trying to remain consistent throughout the course, while making the codes as readable as possible.
 
@@ -59,7 +59,7 @@ A straightforward style guide is:
 For a more detailed guideline:
                [Google C++ Style Guideline](https://google.github.io/styleguide/cppguide.html)
                
-**Compiling C++**
+**(4) Compiling C++**
              
 Now the question you are asking is … what does it mean to get it right? What did I get right?
 
@@ -78,3 +78,34 @@ We run:
 ```
   ./main.out
 ```  
+
+**(5) Using namespace**
+At times using std:: can be a tad bit irritating in such cases to simplify the script "namespace std;" is used
+
+eg:
+```
+#include<iostream>
+using namespace std;
+int main(){
+cout << "Hello World!";
+return 0;
+}
+```
+There is some controversy about using namespace. When the commands are not explicitly defined, there is a possibility that when your code is added to a large project, your code might reference a command from a different library.
+
+**(7) Adding Variables and blank lines**
+Any string literal must be enclosed in double quotes. Numbers do not require double quotes. If a variable name is used, the value of the variable is printed.
+
+We can have multiple insertions to cout.
+
+A program snippet:
+```
+ int integer = 4543;
+ std::cout<<”The value of integer is “<<integer<<"\n";
+```
+Output: The value of integer is 4543
+
+Also, note that cout does not automatically add newlines. You must add them using the escape sequence “\n”
+
+**(8) printing variable size**
+As with other programming languages, the size a variable is allocated in memory is dependent upon its type. To determine how many bytes each variable type uses, C++ provides the function sizeof(variableType)
