@@ -21,3 +21,13 @@ Include means add the declarations of the given library. In this case we are add
 
 ![Screenshot](Images/image.png)
 
+Important:-
+
+You can declare the library by using either " " or < > 
+The brackets ( <> ) say “Look for this file in the directory where all the standard libraries are stored”. C++ also allows us to specify the library name using double quotes.
+The double quotes (" ") say “look in the current directory, if the file is not there, then look in the directory where the standard libraries are stored”.
+
+****** How to use commnents*******
+
+Comments helps in explaining the piece of code you have wrote and also helps other viewers and collaborators to work on it for the same....
+in C++ comments are given as /*comment*/
