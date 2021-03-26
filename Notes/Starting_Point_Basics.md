@@ -57,4 +57,23 @@ A straightforward style guide is:
 
 For a more detailed guideline:
                [Google C++ Style Guideline](https://google.github.io/styleguide/cppguide.html)
-      
+               
+              
+             
+Now the question you are asking is … what does it mean to get it right? What did I get right?
+
+When you click on the submit button, the program is compiled and run.
+
+
+The command to compile is :
+```
+ g++  main.cpp -o main.out
+```
+G++ for the C++ compiler. The file name is main.cpp. -o is for the name of the output. Main.out is the name of the output.
+
+To run the output file, main.out.
+
+We run:
+```
+  ./main.out
+```  
