@@ -1,7 +1,8 @@
 Book used for reference : C++ Programming Language 4th edition
 
 **Program Structure**
-  the c++ program structure consists of two major parts **Preprocessor Directives** & **Main Fucntion**
+  
+The c++ program structure consists of two major parts **Preprocessor Directives** & **Main Fucntion**
   
   Lets take an example of a program...
  
