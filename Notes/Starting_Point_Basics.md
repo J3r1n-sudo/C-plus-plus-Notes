@@ -80,8 +80,8 @@ We run:
 ```  
 
 **(5) Using namespace**
-At times using std:: can be a tad bit irritating in such cases to simplify the script "namespace std;" is used
 
+At times using std:: can be a tad bit irritating in such cases to simplify the script "namespace std;" is used
 eg:
 ```
 #include<iostream>
@@ -94,10 +94,9 @@ return 0;
 There is some controversy about using namespace. When the commands are not explicitly defined, there is a possibility that when your code is added to a large project, your code might reference a command from a different library.
 
 **(7) Adding Variables and blank lines**
+
 Any string literal must be enclosed in double quotes. Numbers do not require double quotes. If a variable name is used, the value of the variable is printed.
-
 We can have multiple insertions to cout.
-
 A program snippet:
 ```
  int integer = 4543;
@@ -108,6 +107,7 @@ Output: The value of integer is 4543
 Also, note that cout does not automatically add newlines. You must add them using the escape sequence “\n”
 
 **(8) printing variable size**
+
 As with other programming languages, the size a variable is allocated in memory is dependent upon its type. To determine how many bytes each variable type uses, C++ provides the function sizeof(variableType)
 
 "\n" and "endl" works the same but has a distinct feature of using .flush() function.
@@ -127,6 +127,7 @@ return 0;
 ```
 
 **(9) Enumerated Constants**
+
 C++ also allows for enumerated constants. This means the programmer can create a new variable type and then assign a finite number of values to it.
 ```
 enum type_name {
@@ -174,7 +175,30 @@ Most commonly used escape charachters are:-
 -\n Newline
 -\t Tab
 
+We can also use a library in C++ called ```<iomanip>``` which can serve the same purpose..
+one can use ```setw(setwidth)``` to control the spacing between charachters!
+```
+#include <iomanip>
+std::cout<<"\n\nThe text without any formating\n";
+std::cout<<"Ints"<<"Floats"<<"Doubles"<< "\n";
+std::cout<<"\nThe text with setw(15)\n";
+std::cout<<"Ints"<<std::setw(15)<<"Floats"<<std::setw(15)<<"Doubles"<< "\n";
+std::cout<<"\n\nThe text with tabs\n";
+std::cout<<"Ints\t"<<"Floats\t"<<"Doubles"<< "\n";
+```
 
+Results:-
+```
+The text without any formating
+IntsFloatsDoubles
+
+The text with setw(15)
+Ints         Floats        Doubles
+
+
+The text with tabs
+Ints    Floats    Doubles
+```
 
 
 
