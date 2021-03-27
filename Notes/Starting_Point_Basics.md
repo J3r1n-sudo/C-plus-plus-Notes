@@ -140,6 +140,39 @@ enum type_name {
 For Example:-
 ``` enum MONTH {Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec}; ```
 
+Example for enum usage:-
+```
+/*Enum example*/
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    //define MONTHS as having 12 possible values
+    enum MONTHS {Jan, Feb, Mar, Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec};
+    
+    //define bestMonth as a variable type MONTHS
+    MONTHS bestMonth;
+    
+    //assign bestMonth one of the values of MONTHS
+    bestMonth = Jan;
+    
+    //now we can check the value of bestMonths just 
+    //like any other variable
+    if(bestMonth == Jan)
+    {
+        cout<<"I'm not so sure January is the best month\n";
+    }
+    return 0;
+}
+```
+
+**(10) Formatting Output**
+
+For formatting outputs we can use escape sequences....as they arent to be called using any library!
+Most commonly used escape charachters are:-
+-\n Newline
+-\t Tab
 
 
 
