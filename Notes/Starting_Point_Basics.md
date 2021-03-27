@@ -211,18 +211,53 @@ File IO Steps:
  - Write or read the file
  - Close the file myfile.close();
 
+```
+#include <iostream>
+#include <fstream>
+#include <string>
+using namespace std;
 
+int main () {
+    string line;
+    //create an output stream to write to the file
+    //append the new lines to the end of the file
+    ofstream myfileI ("input.txt", ios::app);
+    if (myfileI.is_open())
+    {
+        myfileI << "\nI am adding a line.\n";
+        myfileI << "I am adding another line.\n";
+        myfileI.close();
+    }
+    else cout << "Unable to open file for writing";
 
+    //create an input stream to read the file
+    ifstream myfileO ("input.txt");
+    //During the creation of ifstream, the file is opened. 
+    //So we do not have explicitly open the file. 
+    if (myfileO.is_open())
+    {
+        while ( getline (myfileO,line) )
+        {
+            cout << line << '\n';
+        }
+        myfileO.close();
+    }
 
+    else cout << "Unable to open file for reading";
 
+    return 0;
+}
+```
+**(12) Header files**
 
+![image](https://user-images.githubusercontent.com/71806917/112716970-a62a3f00-8f0f-11eb-8d46-d9730d65fcf5.png)
 
+As we have seen we can include additional libraries in C++, we can also include our own libraries.
 
+Traditionally, these files are called header files and they have an .hpp extension. Although any extension will work.
 
-
-
-
-
+-Header files contain information about how to do a task.
+-The main program contains information about what to do.
 
 
 
