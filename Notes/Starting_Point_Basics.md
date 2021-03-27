@@ -199,6 +199,17 @@ Ints         Floats        Doubles
 The text with tabs
 Ints    Floats    Doubles
 ```
+**(11) File IO**
+File IO Steps:
+
+ - Include the ```<fstream>``` library (fstream is a library that deals with all the file reading and writing) 
+ - Create a stream (input, output, both)
+      - ofstream myfile; (for writing to a file)
+      - ifstream myfile; (for reading a file)
+      - fstream myfile; (for reading and writing a file)
+ - Open the file  myfile.open(“filename”);
+ - Write or read the file
+ - Close the file myfile.close();
 
 
 
