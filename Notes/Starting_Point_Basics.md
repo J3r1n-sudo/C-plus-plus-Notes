@@ -276,6 +276,13 @@ we can put this in an .hpp header file and refer it our code as...
 #include "headers.hpp"
 ```
 
+**(13) User Input**
+
+![image](https://user-images.githubusercontent.com/71806917/112755819-06001300-9000-11eb-99a1-ab32bb7dc26a.png)
+
+In C++ we use std::cout for writing to the console.
+And we have std::cin for reading from the console.
+
 
 
 
