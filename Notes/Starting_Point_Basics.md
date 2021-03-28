@@ -283,6 +283,13 @@ we can put this in an .hpp header file and refer it our code as...
 In C++ we use std::cout for writing to the console.
 And we have std::cin for reading from the console.
 
+*What does std::cin do about strings?*
+```
+A string can be declared and initialized by using a pointer or an array of characters. cin String input from the keyboard, but cin does not input a space character. It stops input a string when it reads a space character.
+```
+
+
+
 
 
 
