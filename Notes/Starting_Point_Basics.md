@@ -312,7 +312,7 @@ int main()
     return 0;
 }
 ```
-**(15) More on Strings**
+**(15) More on String Inputs, Steps for using Stringstream**
 
 
 
