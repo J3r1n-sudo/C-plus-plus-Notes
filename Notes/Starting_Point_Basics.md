@@ -259,5 +259,23 @@ Traditionally, these files are called header files and they have an .hpp extensi
 -Header files contain information about how to do a task.
 -The main program contains information about what to do.
 
+-main.cpp: all the code on what the program does goes in this file.
+-main.hpp: all the code on how the program does a task goes in this file.
+
+Let us take an example of hello world program...
+
+Instead of writing the entire headers i.e
+
+``` 
+#include <iostream>
+using namespace std;
+```
+we can put this in an .hpp header file and refer it our code as...
+
+```
+#include "headers.hpp"
+```
+
+
 
 
