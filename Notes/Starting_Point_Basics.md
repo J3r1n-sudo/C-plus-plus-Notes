@@ -289,6 +289,7 @@ A string can be declared and initialized by using a pointer or an array of chara
 ```
 
 **(14) User Input**
+
 So, we now know that std::cin will not retrieve strings that have a space in them. It will see the space as the end of the input. We will obviously need a method to enter strings.
 
 C++ has a function called getline.
@@ -298,6 +299,19 @@ The basic form of getline is:
 
 The programmer can also specify a different delimiter if the newline character is not desired. 
 
+```
+#include<iostream>
+#include<string>
+
+int main()
+{
+    std::string userName; 
+    std::cout<<"Tell me your nickname?: ";
+    std::getline(std::cin, userName);
+    std::cout<<"Hello "<<userName<<"\n";
+    return 0;
+}
+```
 
 
 
