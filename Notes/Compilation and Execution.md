@@ -1,4 +1,5 @@
 CodeBlock is a great IDE for C/C++
+
 I currently use ATOM with MINGW for g++ in Windows
 
 **(1) Compiling**
@@ -22,3 +23,13 @@ Object Files
 Compiling source code, like a single .cpp file, results in something called an object file. An object file contains machine code but may not be executable in and of itself. Among other things, object files describe their own public APIs (usually called symbols) as well as references that need to be resolved from other object files. Depended upon object files might come from other source files within the same project or from external or system libraries.
 
 In order to be executable, object files need to be linked together.
+
+**(3) Linker**
+
+![image](https://user-images.githubusercontent.com/71806917/112817335-f1735780-909f-11eb-92f9-31dd375635aa.png)
+
+Linking is the process of creating an executable by effectively combining object files. During the linking process, the linker (the thing that does the linking) resolves symbolic references between object files and outputs a self-contained binary with all the machine code needed to execute.
+
+As an aside, linking is not required for all programs. Most operating systems allow dynamic linking, in which symbolic references point to libraries that are not compiled into the resulting binary. With dynamic linking, these references are resolved at runtime. An example of this is a program that depends on a system library. At runtime, the symbolic references of the program resolve to the symbols of the system library.
+
+There are pros and cons of dynamic linking. On the one hand, dynamically linked libraries are not linked within binaries, which keeps the overall file size down. However, if the library changes at any point, your code will automatically link to the new version. Like any changing dependency, difficult to fix and surprising bugs sometimes arise when versions change.
