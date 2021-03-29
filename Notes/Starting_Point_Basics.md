@@ -314,6 +314,13 @@ int main()
 ```
 **(15) More on String Inputs, Steps for using Stringstream**
 
+Steps for using Stringstream:
 
+-Include the Stringstream library.
+    ```#include<sstream>```
+-Use getline to get the string from the user
+    ```std::getline(std::cin, stringVariable);```
+-Convert the string variable to a float variable.
+    ```std::stringstream(stringVariable) >> numericVariable;```
 
 
