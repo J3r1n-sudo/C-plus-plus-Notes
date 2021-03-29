@@ -325,4 +325,6 @@ Steps for using Stringstream:
 - Convert the string variable to a float variable.
     ```std::stringstream(stringVariable) >> numericVariable;```
 
+**(16) Debugging**
+
 
