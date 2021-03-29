@@ -13,3 +13,12 @@ The nice thing about binaries is that they're generally distributable. So long a
 
 There are many tools available to help you compile, ranging from barebones tools, such as g++ on Unix, to complex build systems that are integrated into IDEs like Visual Studio and Eclipse.
 There is a high-level build tool called CMake that is fairly popular and cross-platform. CMake in and of itself, however, does not compile code. CMake results in compilation configurations. It depends on a lower-level build tool called Make to manage compiling from source. And then Make depends on a compiler to do the actual compiling.
+
+**(2) Object Files**
+
+![image](https://user-images.githubusercontent.com/71806917/112816581-2f23b080-909f-11eb-9b42-dc6df3db1712.png)
+
+Object Files
+Compiling source code, like a single .cpp file, results in something called an object file. An object file contains machine code but may not be executable in and of itself. Among other things, object files describe their own public APIs (usually called symbols) as well as references that need to be resolved from other object files. Depended upon object files might come from other source files within the same project or from external or system libraries.
+
+In order to be executable, object files need to be linked together.
