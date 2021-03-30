@@ -49,3 +49,42 @@ int main()
     return 0;
 }
 ```
+
+**(2) Prefix and Postfix**
+
+incrementing :
+- a++
+- ++a
+
+decrementing :
+- a--
+- --a
+
+![image](https://user-images.githubusercontent.com/71806917/113001601-979d8b00-918e-11eb-81e7-e8e466de35bb.png)
+
+
+```
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+    int a, b = 0;
+    int post, pre = 0;
+    cout<<"Inital values: \t\t\tpost = "<<post<<" pre= "<<pre<<"\n";
+    post = a++;
+    pre = ++b;
+    cout<<"After one postfix and prefix: \tpost = "<<post<<" pre= "<<pre<<"\n";
+    post = a++;
+    pre = ++b;
+    cout<<"After two postfix and prefix: \tpost = "<<post<<" pre= "<<pre<<"\n";  
+    return 0;
+}
+```
+
+```
+Inital values: 			post = 0 pre= 0
+After one postfix and prefix: 	post = 0 pre= 1
+After two postfix and prefix: 	post = 1 pre= 2
+```
