@@ -19,3 +19,33 @@ Also, for the next programming quiz …. M_PI is equivalent to pi.
 
  //pi is equal to M_PI
 M_PI = 3.14159265358979323846
+
+
+```
+#include<iostream>
+#include<cmath>
+
+using namespace std;
+int main()
+{
+    //Dimension of the cube
+    float cubeSide = 5.4;
+    //Dimension of sphere
+    float sphereRadius = 2.33;
+    //Dimensions of cone
+    float coneRadius = 7.65;
+    float coneHeight = 14;
+    
+    float volCube, volSphere, volCone = 0;
+    
+    volCube = pow(cubeSide,3);
+    volSphere = (4/3) * M_PI * pow(sphereRadius,3);
+    volCone = M_PI * pow(coneRadius,2) * (coneHeight/3);
+    
+    cout << "Cube Volume = "<<volCube<<endl;
+    cout << "Sphere Volume = "<<volSphere<<endl;
+    cout << "Cone Volume = "<<volCone<<endl;
+    
+    return 0;
+}
+```
