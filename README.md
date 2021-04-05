@@ -1,6 +1,6 @@
 # C-plus-plus-Notes
 
-![image](https://user-images.githubusercontent.com/71806917/113538687-807cf400-95f9-11eb-85db-045c62e6524c.png)
+<img src="https://user-images.githubusercontent.com/71806917/113538687-807cf400-95f9-11eb-85db-045c62e6524c.png" width="100" height="100">
 
 My **C++ Workspace** which consists of:-
 
