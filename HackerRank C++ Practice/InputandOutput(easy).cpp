@@ -1,3 +1,4 @@
+/*
 Objective
 In this challenge, we practice reading input from stdin and printing output to stdout.
 
@@ -36,7 +37,7 @@ Sample Output
 Explanation
 
 The sum of the three numbers is a+b+c.
-
+*/
 #include <cmath>
 #include <cstdio>
 #include <vector>
