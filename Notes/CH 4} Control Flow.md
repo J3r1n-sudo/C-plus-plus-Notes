@@ -214,3 +214,30 @@ switch(expression)
 }
 ```
 
+7. for loop
+   
+   for loops in C++ have the following form:
+```
+for ( declaration : range ) statement;
+```
+```
+for (initialization; condition; increase) statement;
+```
+
+eg-
+```
+    #include <iostream>
+    int main()
+    {
+        for(int i=0; i< 10;i++)
+        {
+            std::cout<<"i = "<<i<<"\n";
+        }
+     return 0;
+    } 
+```
+
+Output:-
+
+![image](https://user-images.githubusercontent.com/71806917/114520704-55307f80-9c5f-11eb-8719-df739866e67e.png)
+
