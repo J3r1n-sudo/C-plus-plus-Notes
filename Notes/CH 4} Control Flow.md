@@ -145,12 +145,10 @@ int main()
     {
         std::cout<<"Yay! You guessed correctly.\n";
     }
-    
-    
+       
     return 0;
 }
 ```
-
 ```
 #include<iostream>
 
@@ -194,4 +192,25 @@ int main()
    
    return 0;
 }
+
 ```
+6. Switch Statements
+
+Switch statements in C++ are similar to switch statements in other languages.
+
+The format for a switch statement:
+
+```
+switch(expression)
+{
+     case constant-expression : statements;
+                               break; (this is optional);
+     case constant-expression : statements;
+                               break; (this is optional);
+     ...
+
+     default : //optional
+        statements;
+}
+```
+
