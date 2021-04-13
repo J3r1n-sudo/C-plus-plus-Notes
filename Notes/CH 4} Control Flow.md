@@ -241,3 +241,22 @@ Output:-
 
 ![image](https://user-images.githubusercontent.com/71806917/114520704-55307f80-9c5f-11eb-8719-df739866e67e.png)
 
+
+8.while loop
+
+There are 2 types of while loops:-
+
+a) regular while loop
+b) do ... while loop
+
+a) regular while loop
+
+C++ while loops syntax is:
+```
+while(condition)
+{
+     statements;
+}
+```
+If the condition is true, the statements within the curly brackets are executed. If the condition is false, the statements are not executed.
+
