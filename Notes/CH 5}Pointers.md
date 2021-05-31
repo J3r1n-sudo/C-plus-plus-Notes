@@ -38,8 +38,9 @@ std::cout << "pointerToA points to " << * pointerToA << '\n';
 }
 ```
 output: -
-
+```
 g++ -o deref.out pointer_deref.cpp
 :~/c++$ ./deref.out
 pointerToA stores 0x7ffe8f506f8c
 pointerToA points to 54
+```
