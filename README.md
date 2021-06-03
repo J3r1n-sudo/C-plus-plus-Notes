@@ -5,7 +5,7 @@
 My **C++ Workspace** which consists of:-
 
 - C++ Books and References
-- C++ Basics Note
+- C++ Basic Notes
 - C++ Programs 
 - C++ Scripts
 
