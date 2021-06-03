@@ -24,11 +24,11 @@ Print the N integers of the array in the reverse order in a single line separate
 */
 
 
-#include <cmath>
-#include <cstdio>
-#include <vector>
-#include <iostream>
-#include <algorithm>
+#include  <cmath>
+#include  <cstdio>
+#include  <vector>
+#include  <iostream>
+#include  <algorithm>
 #define MAX 10000
 using namespace std;
 
