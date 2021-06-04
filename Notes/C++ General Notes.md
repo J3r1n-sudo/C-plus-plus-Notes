@@ -3,7 +3,7 @@ This is C++ Notes....
 ################################################################################################################################################################################
 
 1} Why it is used?
---> Basic computer programs and softwares, Operating Systems, Games,Self driving cars, Power grids etc etc
+--> Basic computer programs and softwares, Operating Systems, Games ,Self driving cars, Power grids etc etc
 --> Used in cases where optimization and dependability is a key!
 
 2} It is a language with a lot of features...
