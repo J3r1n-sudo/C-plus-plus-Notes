@@ -7,6 +7,7 @@ The c++ program structure consists of two major parts **Preprocessor Directives*
   Lets take an example of a program...
  
  ```
+ 
  #include <iostream>
  int main() 
    {
@@ -17,7 +18,7 @@ The c++ program structure consists of two major parts **Preprocessor Directives*
     
   Any word which starts with a hash sign is called the pre processor directive
   
-After the hash sign we have the word include. There are several preprocessor directives available in C++, but include is the one we see and use the most often.
+After the hash sign we have the word include. There are several preprocessor directives available in C++, but  include is the one we see and use the most often.
 Include means add the declarations of the given library. In this case we are adding the declarations of the iostream library.
 
 ![Screenshot](Images/image.png)
