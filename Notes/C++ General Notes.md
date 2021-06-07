@@ -14,3 +14,6 @@ This is C++ Notes....
 4} Works very efficiently with hardware
 
 Book to be refered : C++ Programming Language 4th edition
+
+5}Much more easy to interpret for the machine in general
+
